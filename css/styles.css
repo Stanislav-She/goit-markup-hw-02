@@ -1,0 +1,374 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+    width: 1600px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+.link {
+    text-decoration: none; 
+}
+
+
+
+
+    /* HEDER */
+
+
+.page-header {
+    background-color: #FFFFFF;
+    width: 1600px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    align-items: center;    
+}
+
+
+.main-nav {
+    display: flex;    
+}
+
+
+.logo-link {
+    text-decoration: none;
+    margin-left: 215px;
+}
+
+
+.logo-one {    
+    width: 145px;
+    height: 31px;
+    padding: 24px 0px 25px 0px;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo-first {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #2196F3;    
+}
+
+
+.logo-second {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+
+.nav-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+    display: flex;
+    width: 281px;
+    height: 16px;
+    margin-left: 93px;
+    padding-left: 0px;    
+}
+
+
+.nav-link .item:not(:last-child) {
+    margin-right: 50px;
+}
+
+
+.nav-link .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+
+/* .link.current зазначив поточну сторінку і так на кожній наступній поточній */
+
+.nav-link .link.current {
+    text-decoration: none; 
+    color: #2196F3
+}
+
+
+.nav-link :hover,
+.nav-link :focus {
+    color: #2196F3;
+}
+
+
+.contacts {
+    margin-left: 344px;
+    padding-left: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #757575;
+    display: flex;   
+}
+
+
+.contacts .item:not(:last-child) {
+    margin-right: 50px;
+}
+
+
+.contacts .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+.contacts :hover,
+.contacts :focus {
+    color: #2196F3;
+}
+
+
+
+
+    /* MAIN */
+
+
+.main {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F5F5F5;
+}
+       
+
+.main-content {
+    width: 1170px;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+    
+
+.main-botton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #F5F4FA;
+    margin: 122px 0 30px 0;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+
+.main-botton .botton-text:not(:last-child) {
+    margin-right: 8px;    
+}
+
+
+.btn-one {
+display: inline-block;
+padding: 6px 25px;
+border-radius: 5px;
+border: 1px solid black;
+}
+
+
+.main-botton .link.current { 
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+
+.btn-two {
+    display: inline-block;
+    padding: 6px 22px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+.btn-three {
+    display: inline-block;
+    padding: 6px 22px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+.btn-four {
+    display: inline-block;
+    padding: 6px 22px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+.btn-five {
+    display: inline-block;
+    padding: 6px 22px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+.botton-text :active,
+.botton-text :hover,
+.botton-text :focus {
+    background: #2196F3;
+    border: 1px solid #000000;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+
+.botton-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;    
+}
+
+
+.botton-text :active,
+.botton-text :hover,
+.botton-text :focus {
+    color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    padding-left: 0px;
+    padding-right: 0px;  
+}
+
+
+.work-item {
+    width: 370px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+
+.work-item:nth-child(3n) {
+    margin-right: 0px;
+}
+
+
+.work-item:nth-last-child(-n + 3) {
+    margin-bottom: 0px;
+}
+
+
+.works-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+
+.works-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+
+
+    /* FOOTER */
+
+
+.footer {
+    
+    width: 1600px;
+    height: 252px;
+    margin-top: 40px;
+    background: #2F303A;
+}
+
+
+.logo-link-footer {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 215px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+.logo-third {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+
+.contacts-footer {
+    margin-left: 215px;
+    padding-left: 0px;
+    margin-top: 0px;
+
+}
+
+
+.contacts-adress {
+    margin-bottom: 9px;
+}
+
+
+.contacts-mail {
+    margin-bottom: 9px;
+}
+
+
+.contacts-tel {
+    margin-bottom: 60px;
+}
