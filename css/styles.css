@@ -360,6 +360,8 @@ ul {
         margin-left: 215px;
         padding-left: 0px;
         margin-top: 0px;
+        width: 231px;
+        height: 81px;
     }
     
     .contacts-adress-studio {
@@ -713,6 +715,8 @@ ul {
     margin-left: 215px;
     padding-left: 0px;
     margin-top: 20px;
+    width: 231px;
+    height: 81px;
 }
 
 .contacts-adress {
